@@ -1,0 +1,347 @@
+.item{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    border: 1px rgb(215, 211, 211) solid;
+    border-radius: 8px;
+    padding: 12px 18px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.green{
+    display: flex;
+    gap: 10px;
+    background-color: green;
+}
+.edit{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-left: auto;
+}
+.activeDo{
+    font-size: 32px;
+    font-weight: 600;
+}
+.itemsDo{
+    padding: 3% 5%;
+    position: relative;
+}
+.list{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+.tools{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 10px;
+    align-items: center;
+    height: max-content;
+    padding-top: 8px;
+}
+.hidden-form{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    z-index: 2;
+    background-color: rgb(226, 226, 226);
+    border-radius: 12px;
+    display: block;
+    padding: 2% 5%;
+    border:2px solid rgb(209, 207, 207);
+    
+
+}
+.wrraper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+     background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+    z-index: 10; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-edit{
+    display: block;
+}
+h3{
+    color: rgb(8, 8, 8);
+    font-size: 30px;
+    text-align: center;
+}
+.close{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    left: 360px;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+     border: 2px green solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+.checkBox{
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.arrow {
+    display: flex;
+    border: 2px solid green;
+    background-color: green;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.arrow::after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.CheckBox-div{
+    display: flex;
+}
+.notification{
+    margin-top: 150px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.circkle{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(193, 190, 187);
+    position: relative;
+}
+.circkle::after{
+    content: "";
+    position: absolute;
+    left: 11px;
+    top: 5px;
+    width: 6px;
+    height: 12px;
+    border: solid rgb(2, 167, 54);
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.completedItem{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+    border: 1px rgb(215, 211, 211) solid;
+    border-radius: 8px;
+    padding: 12px 18px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: line-through;
+}
+.data{
+    margin: 0;
+    font-size: 16px;
+}
+.ArrowBottomAdditional{
+    position:relative;
+    left: 6px;
+    top: 4px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(5, 5, 5);
+    border-top: 0;
+    border-right: 0;
+    transition: transform 0.5s ease;
+    transform: rotateZ(313deg);
+    cursor: pointer;
+}
+.ItemAdition{
+      display: block;
+    gap: 10px;
+    background-color: white;
+    border: 1px rgb(215, 211, 211) solid;
+    border-radius: 8px;
+    padding: 12px 18px;
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative;
+}
+.additionalInfo{
+    padding-left: 4%;
+    width: max-content;
+}
+.date{
+    color: gray;
+}
+.ArrowTopAdditional{
+  position:relative;
+    left: 4px;
+    top: 14px;
+    height: 20px;
+    width: 20px;
+    border: 2px solid rgb(5, 5, 5);
+    border-top: 0;
+    border-right: 0;
+    transition: transform 0.5s ease;
+    transform: rotateZ(135deg);
+    cursor: pointer;
+}
+.CompletedDo{
+    padding: 10px;
+    margin: 0;
+    background-color: green;
+    color: white;
+    margin-left: auto;
+    border-radius: 10px;
+    height: max-content;
+}
+.ActiveDo{
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(71, 167, 184);
+    color: white;
+    margin-left: auto;
+    border-radius: 10px;
+        height: max-content;
+}
+.DiseableDo{
+     padding: 10px;
+    margin: 0;
+    background-color: rgb(180, 2, 2);
+    color: white;
+    margin-left: auto;
+    border-radius: 10px;
+        height: max-content;
+}
+.textLi{
+    display: flex;
+    align-items: center;
+}
+.delete{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.navTool{
+    display: flex;
+}
+.boxAll{
+    display: flex;
+     border: 2px rgb(92, 92, 92) solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+/* Загальні стилі для datetime-local */
+.datetime-input {
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: all 0.3s ease;
+  width: 88%;
+  max-width: 300px;
+  margin-top: 10px;
+}
+
+.datetime-input:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 0 3px rgba(74, 144, 226, 0.2);
+}
+
+.datetime-input:hover {
+  border-color: #bbb;
+}
+
+/* Стилі для стану disabled */
+.datetime-input:disabled {
+  background-color: #f5f5f5;
+  color: #999;
+  cursor: not-allowed;
+}
+
+/* Стилі для стану error */
+.datetime-input.error {
+  border-color: #e74c3c;
+  background-color: #fdf0ef;
+}
+
+.datetime-input.error:focus {
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.2);
+}
+.boxGrey{
+    display: flex;
+     border: 2px gray solid;
+    width: 25px;
+    height: 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+.checkBox{
+    height: 0;
+    width: 0;
+    opacity: 0;
+}
+.arrowGrey {
+    display: flex;
+    border: 2px gray solid;
+    background-color: grey;
+    width: 25px;
+    height: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.arrowGrey::after {
+    content: "";
+    position: absolute;
+    left: 9px;
+    top: 3px;
+    width: 6px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+.CheckBoxDiv{
+    display: flex;
+    padding-top: 8px;
+}
+.title{
+    height: max-content;
+    width: max-content;
+    padding-top: 10px;
+}

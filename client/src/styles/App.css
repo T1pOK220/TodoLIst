@@ -1,0 +1,157 @@
+body{
+    background-color: rgba(106, 97, 97, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#root{
+  height: 100vh;
+  width: 100vw;
+}
+.registration-from{
+  display: inline-block;
+  border-radius: 32px ;
+  max-width: max-content;
+background-color: rgb(91, 88, 88);
+     animation: shadow 5s infinite alternate;
+     padding: 5%;
+     /* margin-left: 500px;
+     margin-top: 100px; */
+
+}
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-block{
+  display: block;
+  width: 100%;
+  margin-top: 20px; 
+  justify-content: center;
+  margin-bottom: 10px;
+  position: relative;
+  margin-top: 20px;
+
+}
+.header h2{
+  margin: 0;
+  font-size: 50px;
+  color: aqua;
+
+}
+#userName,#email,#password {
+  position: relative;
+  width: 96%;
+  border: 2px solid aqua;
+  border-radius: 8px;
+  font-size: 16px;
+  background: transparent;
+  outline: none;
+  padding: 5px;
+  color: white;
+}
+.lables{
+  font-size: 18px;
+  color: aqua;
+  position: absolute;
+  top: -8px;
+  left: 4px;
+}
+
+#userName:focus{
+  border-color:aqua;
+}
+#email:focus{
+  border-color:aqua;
+}
+#password:focus{
+  border-color:aqua;
+}
+@keyframes shadow {
+  0%{ box-shadow:  0 3px 6px rgba(255, 0, 0, 0.5),
+     0 1px 8px rgba(255, 0, 0, 0.3),
+     0 -3px 10px rgba(255, 0, 0, 0.1)
+  }
+  50%{box-shadow:  0 3px 5px rgba(0, 255, 0, 0.5),
+    0 1px 5px rgba(0, 255, 0, 0.3),
+    0 -3px 5px rgba(0, 255, 0, 0.1)
+  }
+  100%{box-shadow:  0 3px 4px rgba(0, 0, 255, 0.5),
+  0 1px 4px rgba(0, 0, 255, 0.3),
+  0 -3px 4px rgba(0, 0, 255, 0.1)}
+}
+.eye{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 30px;
+  right: 10px;
+}
+.btn{
+  width: 100%;
+  background-color: aqua;
+  margin-top: 4%;
+}
+.Test{
+  color: red;
+  text-align: center;
+  font-size: 14px;
+  overflow: auto;
+}
+.addForm{
+  background-color: rgba(143, 140, 140, 0);
+  width: max-content;
+  padding: 5%;
+}
+.btnAdd{
+  background-color: rgb(69, 69, 249);
+  color: white;
+  padding: 10px 15px;
+  font-size: 18px;
+  width: 100%;
+}
+.addPageForm{
+  display: flex;
+  justify-content: center;
+}
+.buttonBox{
+  display: flex;
+  justify-content: center;
+}
+h2{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+}
+.wrapperReg{
+  height: 100vh;
+  width: 100vw;
+ background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ToReg{
+  color: white;
+  text-align: center;
+}
+.ToReg a{
+ color: aqua;
+}
+.addItem-block{
+   display: flexbox;
+  width: max-content;
+  margin-top: 20px; 
+  justify-content: center;
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+}
+.datetime-lable{
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 20px;
+
+}

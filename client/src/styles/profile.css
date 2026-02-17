@@ -1,0 +1,119 @@
+#root{
+    height: max-content;
+    width: max-content;
+}
+.user-profile{
+    padding: 4%;
+}
+h4{
+    margin: 0;
+    font-size: 34px;
+    margin-bottom:20px ;
+}
+.card{
+    background-color: white;
+    border-radius: 12px;
+    border: 2px solid rgb(231, 223, 223);
+    display: block;
+    justify-content: center;
+    padding: 20px 0;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+}
+.avatar-User{
+    height: 200px;
+    width: 200px;
+}
+.userNameBox{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.UserName{
+    font-size: 30px;
+    font-weight: 600;
+    
+}
+.emailBox{
+     display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.emailBox p {
+    margin: 0;
+    color: rgb(101, 99, 99);
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@keyframes shadow {
+  0%{ box-shadow:  0 3px 6px rgba(255, 0, 0, 0.5),
+     0 1px 8px rgba(255, 0, 0, 0.3),
+     0 -3px 10px rgba(255, 0, 0, 0.1)
+  }
+  50%{box-shadow:  0 3px 5px rgba(0, 255, 0, 0.5),
+    0 1px 5px rgba(0, 255, 0, 0.3),
+    0 -3px 5px rgba(0, 255, 0, 0.1)
+  }
+  100%{box-shadow:  0 3px 4px rgba(0, 0, 255, 0.5),
+  0 1px 4px rgba(0, 0, 255, 0.3),
+  0 -3px 4px rgba(0, 0, 255, 0.1)}
+}
+.editBox{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    animation: shadow 5s infinite alternate;
+    width: max-content;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.LableProfile{
+    font-size: 16px;
+    font-weight: bold;
+}
+.EditBtn{
+    background-color: aqua;
+    margin-left: 14px;
+}
+.placeholders{
+    margin-left: 10px;
+    color: gray;
+}
+.logOutAndTool{
+    display: flex;
+}
+.logOutBox{
+    height: max-content;
+    margin-left: auto;
+    margin-right: 20px;
+   text-align: center;
+}
+.DeleteBtn{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.logOut{
+    color: red;
+        cursor: pointer;
+}
+.eye-newPassword{
+position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 146px;
+  right: 75px;
+}
+.eye-oldPassword{
+    position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 216px;
+  right: 75px;
+}

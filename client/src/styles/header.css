@@ -1,0 +1,46 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+.navigation{
+    width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(57, 57, 71);
+  padding: 0 4%;
+  box-sizing: border-box;
+  position: relative;
+}
+nav{
+display: flex;
+gap: 20px;
+justify-content: center;
+font-size: 28px;
+}
+nav a {
+    color: white;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+.profile-block{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   background-color: rgba(113, 113, 137, 0.4);
+    border-radius: 22px;
+    width: max-content;
+    position: relative;
+    padding-right: 30px;
+    cursor: pointer;
+}
+h1:hover{
+    cursor: pointer;
+    color: aqua;
+}

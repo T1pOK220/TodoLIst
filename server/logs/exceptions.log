@@ -1,0 +1,750 @@
+[2026-02-11 19:43:09] [31merror[39m: [31muncaughtException: connection is not defined[39m
+[31mReferenceError: connection is not defined[39m
+[31m    at new MySQl (file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/MySql.js:17:9)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/index.js:2:19[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "ReferenceError: connection is not defined\n    at new MySQl (file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/MySql.js:17:9)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/index.js:2:19\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Wed Feb 11 2026 19:43:09 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18436,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 61427712,
+      "heapTotal": 22642688,
+      "heapUsed": 15787344,
+      "external": 2437379,
+      "arrayBuffers": 21475
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 820.015
+  },
+  "trace": {
+    "0": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/MySql.js",
+      "function": "new MySQl",
+      "line": 17,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 19,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/index.js",
+      "function": null,
+      "line": 2,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18436,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:45:03] [31merror[39m: [31muncaughtException: connection is not defined[39m
+[31mReferenceError: connection is not defined[39m
+[31m    at new MySQl (file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/MySql.js:17:9)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/index.js:2:19[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "ReferenceError: connection is not defined\n    at new MySQl (file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/MySql.js:17:9)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/index.js:2:19\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Wed Feb 11 2026 19:45:03 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 10660,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 61792256,
+      "heapTotal": 22642688,
+      "heapUsed": 15804144,
+      "external": 2437379,
+      "arrayBuffers": 21475
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 933.968
+  },
+  "trace": {
+    "0": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/MySql.js",
+      "function": "new MySQl",
+      "line": 17,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 19,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/database/index.js",
+      "function": null,
+      "line": 2,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 10660,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:33:57] [31merror[39m: [31muncaughtException: argument handler must be a function[39m
+[31mTypeError: argument handler must be a function[39m
+[31m    at Route.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\lib\route.js:228:15)[39m
+[31m    at Router.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\index.js:448:19)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:8[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: argument handler must be a function\n    at Route.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js:228:15)\n    at Router.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js:448:19)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Sun Feb 15 2026 13:33:57 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 7156,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 61857792,
+      "heapTotal": 22904832,
+      "heapUsed": 17119904,
+      "external": 2402417,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 3811.546
+  },
+  "trace": {
+    "0": {
+      "column": 15,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js",
+      "function": "Route.<computed> [as post]",
+      "line": 228,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "1": {
+      "column": 19,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js",
+      "function": "Router.<computed> [as post]",
+      "line": 448,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "2": {
+      "column": 8,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "4": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "5": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 7156,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:34:47] [31merror[39m: [31muncaughtException: argument handler must be a function[39m
+[31mTypeError: argument handler must be a function[39m
+[31m    at Route.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\lib\route.js:228:15)[39m
+[31m    at Router.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\index.js:448:19)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:8[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: argument handler must be a function\n    at Route.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js:228:15)\n    at Router.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js:448:19)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Sun Feb 15 2026 13:34:47 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 14972,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 61042688,
+      "heapTotal": 22642688,
+      "heapUsed": 16789688,
+      "external": 2402417,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 3861.359
+  },
+  "trace": {
+    "0": {
+      "column": 15,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js",
+      "function": "Route.<computed> [as post]",
+      "line": 228,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "1": {
+      "column": 19,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js",
+      "function": "Router.<computed> [as post]",
+      "line": 448,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "2": {
+      "column": 8,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "4": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "5": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 14972,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:37:20] [31merror[39m: [31muncaughtException: argument handler must be a function[39m
+[31mTypeError: argument handler must be a function[39m
+[31m    at Route.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\lib\route.js:228:15)[39m
+[31m    at Router.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\index.js:448:19)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:8[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: argument handler must be a function\n    at Route.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js:228:15)\n    at Router.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js:448:19)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Sun Feb 15 2026 13:37:20 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 15772,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 62668800,
+      "heapTotal": 22904832,
+      "heapUsed": 16917096,
+      "external": 2402417,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 4014.062
+  },
+  "trace": {
+    "0": {
+      "column": 15,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js",
+      "function": "Route.<computed> [as post]",
+      "line": 228,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "1": {
+      "column": 19,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js",
+      "function": "Router.<computed> [as post]",
+      "line": 448,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "2": {
+      "column": 8,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "4": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "5": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 15772,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:40:21] [31merror[39m: [31muncaughtException: argument handler must be a function[39m
+[31mTypeError: argument handler must be a function[39m
+[31m    at Route.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\lib\route.js:228:15)[39m
+[31m    at Router.<computed> [as post] (C:\Users\Admin\Desktop\ToDo List\server\node_modules\router\index.js:448:19)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/user.routes.js:6:8[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: argument handler must be a function\n    at Route.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js:228:15)\n    at Router.<computed> [as post] (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js:448:19)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/user.routes.js:6:8\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "exception": true,
+  "date": "Sun Feb 15 2026 13:40:21 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 4280,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 62427136,
+      "heapTotal": 31031296,
+      "heapUsed": 17047672,
+      "external": 2402873,
+      "arrayBuffers": 17581
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 4195.062
+  },
+  "trace": {
+    "0": {
+      "column": 15,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\lib\\route.js",
+      "function": "Route.<computed> [as post]",
+      "line": 228,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "1": {
+      "column": 19,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\router\\index.js",
+      "function": "Router.<computed> [as post]",
+      "line": 448,
+      "method": "<computed> [as post]",
+      "native": false
+    },
+    "2": {
+      "column": 8,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/user.routes.js",
+      "function": null,
+      "line": 6,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "4": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "5": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 4280,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:40:32] [31merror[39m: [31muncaughtException: logger is not defined[39m
+[31mReferenceError: logger is not defined[39m
+[31m    at Server.<anonymous> (file:///C:/Users/Admin/Desktop/ToDo%20List/server/server.js:4:4)[39m
+[31m    at Server.f (C:\Users\Admin\Desktop\ToDo List\server\node_modules\once\once.js:25:25)[39m
+[31m    at Object.onceWrapper (node:events:638:28)[39m
+[31m    at Server.emit (node:events:536:35)[39m
+[31m    at emitListeningNT (node:net:1980:10)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)[39m {
+  "error": {},
+  "stack": "ReferenceError: logger is not defined\n    at Server.<anonymous> (file:///C:/Users/Admin/Desktop/ToDo%20List/server/server.js:4:4)\n    at Server.f (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\once\\once.js:25:25)\n    at Object.onceWrapper (node:events:638:28)\n    at Server.emit (node:events:536:35)\n    at emitListeningNT (node:net:1980:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)",
+  "exception": true,
+  "date": "Sun Feb 15 2026 13:40:32 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 13564,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 62132224,
+      "heapTotal": 22642688,
+      "heapUsed": 17288968,
+      "external": 2421548,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 4206.765
+  },
+  "trace": {
+    "0": {
+      "column": 4,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/server.js",
+      "function": null,
+      "line": 4,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 25,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\once\\once.js",
+      "function": "Server.f",
+      "line": 25,
+      "method": "f",
+      "native": false
+    },
+    "2": {
+      "column": 28,
+      "file": "node:events",
+      "function": "Object.onceWrapper",
+      "line": 638,
+      "method": "onceWrapper",
+      "native": false
+    },
+    "3": {
+      "column": 35,
+      "file": "node:events",
+      "function": "Server.emit",
+      "line": 536,
+      "method": "emit",
+      "native": false
+    },
+    "4": {
+      "column": 10,
+      "file": "node:net",
+      "function": "emitListeningNT",
+      "line": 1980,
+      "method": null,
+      "native": false
+    },
+    "5": {
+      "column": 21,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 89,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 13564,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:41:41] [31merror[39m: [31muncaughtException: logger is not defined[39m
+[31mReferenceError: logger is not defined[39m
+[31m    at Server.<anonymous> (file:///C:/Users/Admin/Desktop/ToDo%20List/server/server.js:4:4)[39m
+[31m    at Server.f (C:\Users\Admin\Desktop\ToDo List\server\node_modules\once\once.js:25:25)[39m
+[31m    at Object.onceWrapper (node:events:638:28)[39m
+[31m    at Server.emit (node:events:536:35)[39m
+[31m    at emitListeningNT (node:net:1980:10)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)[39m {
+  "error": {},
+  "stack": "ReferenceError: logger is not defined\n    at Server.<anonymous> (file:///C:/Users/Admin/Desktop/ToDo%20List/server/server.js:4:4)\n    at Server.f (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\once\\once.js:25:25)\n    at Object.onceWrapper (node:events:638:28)\n    at Server.emit (node:events:536:35)\n    at emitListeningNT (node:net:1980:10)\n    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)",
+  "exception": true,
+  "date": "Sun Feb 15 2026 13:41:41 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18488,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 60448768,
+      "heapTotal": 22904832,
+      "heapUsed": 17335544,
+      "external": 2421548,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 4274.875
+  },
+  "trace": {
+    "0": {
+      "column": 4,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/server.js",
+      "function": null,
+      "line": 4,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 25,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\once\\once.js",
+      "function": "Server.f",
+      "line": 25,
+      "method": "f",
+      "native": false
+    },
+    "2": {
+      "column": 28,
+      "file": "node:events",
+      "function": "Object.onceWrapper",
+      "line": 638,
+      "method": "onceWrapper",
+      "native": false
+    },
+    "3": {
+      "column": 35,
+      "file": "node:events",
+      "function": "Server.emit",
+      "line": 536,
+      "method": "emit",
+      "native": false
+    },
+    "4": {
+      "column": 10,
+      "file": "node:net",
+      "function": "emitListeningNT",
+      "line": 1980,
+      "method": null,
+      "native": false
+    },
+    "5": {
+      "column": 21,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 89,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18488,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}

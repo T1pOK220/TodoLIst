@@ -1,0 +1,1356 @@
+[2026-02-09 13:11:52] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateDataBase (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:30:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:21:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateDataBase (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:30:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:21:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Mon Feb 09 2026 13:11:52 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18696,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 61587456,
+      "heapTotal": 32866304,
+      "heapUsed": 15251736,
+      "external": 2513376,
+      "arrayBuffers": 16799
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 9390.64
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateDataBase",
+      "line": 30,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 21,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18696,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-09 13:11:52] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:41:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:22:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:41:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:22:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Mon Feb 09 2026 13:11:52 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18696,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 61661184,
+      "heapTotal": 32866304,
+      "heapUsed": 15424728,
+      "external": 2475927,
+      "arrayBuffers": 25015
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 9390.64
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateTable",
+      "line": 41,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18696,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-09 13:11:52] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateUserTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:52:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:23:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateUserTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:52:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:23:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Mon Feb 09 2026 13:11:52 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18696,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 61673472,
+      "heapTotal": 32866304,
+      "heapUsed": 15517984,
+      "external": 2484119,
+      "arrayBuffers": 33207
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 9390.64
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateUserTable",
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 23,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18696,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:43:09] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateDataBase (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:30:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:21:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateDataBase (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:30:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:21:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Wed Feb 11 2026 19:43:09 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18436,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 62218240,
+      "heapTotal": 32604160,
+      "heapUsed": 15151168,
+      "external": 2453280,
+      "arrayBuffers": 16823
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 820.125
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateDataBase",
+      "line": 30,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 21,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18436,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:43:09] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:41:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:22:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:41:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:22:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Wed Feb 11 2026 19:43:09 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18436,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 62238720,
+      "heapTotal": 32604160,
+      "heapUsed": 15293952,
+      "external": 2456796,
+      "arrayBuffers": 25015
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 820.125
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateTable",
+      "line": 41,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18436,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:43:09] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateUserTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:52:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:23:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateUserTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:52:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:23:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Wed Feb 11 2026 19:43:09 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18436,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 62246912,
+      "heapTotal": 32604160,
+      "heapUsed": 15384384,
+      "external": 2464988,
+      "arrayBuffers": 33207
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 820.125
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateUserTable",
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 23,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18436,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:45:03] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateDataBase (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:30:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:21:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateDataBase (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:30:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:21:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Wed Feb 11 2026 19:45:03 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 10660,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 62492672,
+      "heapTotal": 33390592,
+      "heapUsed": 15088080,
+      "external": 2453280,
+      "arrayBuffers": 16823
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 934.015
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateDataBase",
+      "line": 30,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 21,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 10660,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:45:03] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:41:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:22:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:41:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:22:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Wed Feb 11 2026 19:45:03 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 10660,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 62513152,
+      "heapTotal": 33390592,
+      "heapUsed": 15230864,
+      "external": 2456796,
+      "arrayBuffers": 25015
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 934.015
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateTable",
+      "line": 41,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 22,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 10660,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-11 19:45:03] [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at PromisePool.execute (C:\Users\Admin\Desktop\ToDo List\server\node_modules\mysql2\lib\promise\pool.js:54:22)[39m
+[31m    at CreateUserTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:52:16)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:23:9[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m {
+  "error": {
+    "message": "",
+    "code": "ECONNREFUSED"
+  },
+  "stack": "Error\n    at PromisePool.execute (C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js:54:22)\n    at CreateUserTable (file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:52:16)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js:23:9\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "rejection": true,
+  "date": "Wed Feb 11 2026 19:45:03 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 10660,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\index.js"
+    },
+    "memoryUsage": {
+      "rss": 62517248,
+      "heapTotal": 33390592,
+      "heapUsed": 15321272,
+      "external": 2464988,
+      "arrayBuffers": 33207
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 934.031
+  },
+  "trace": {
+    "0": {
+      "column": 22,
+      "file": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\node_modules\\mysql2\\lib\\promise\\pool.js",
+      "function": "PromisePool.execute",
+      "line": 54,
+      "method": "execute",
+      "native": false
+    },
+    "1": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": "CreateUserTable",
+      "line": 52,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 9,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/db.js",
+      "function": null,
+      "line": 23,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    }
+  },
+  "service": "MyAwesomeApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 10660,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:33:57] [31merror[39m: [31munhandledRejection: Cannot read properties of undefined (reading 'status')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'status')[39m
+[31m    at Module.AddDo (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js:15:14)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:44[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: Cannot read properties of undefined (reading 'status')\n    at Module.AddDo (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js:15:14)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:44\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "rejection": true,
+  "date": "Sun Feb 15 2026 13:33:57 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 7156,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 61956096,
+      "heapTotal": 22904832,
+      "heapUsed": 17301704,
+      "external": 2402195,
+      "arrayBuffers": 16863
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 3811.546
+  },
+  "trace": {
+    "0": {
+      "column": 14,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js",
+      "function": "Module.AddDo",
+      "line": 15,
+      "method": "AddDo",
+      "native": false
+    },
+    "1": {
+      "column": 44,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 7156,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:34:47] [31merror[39m: [31munhandledRejection: Cannot read properties of undefined (reading 'status')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'status')[39m
+[31m    at Module.AddDo (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js:15:14)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:44[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: Cannot read properties of undefined (reading 'status')\n    at Module.AddDo (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js:15:14)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:44\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "rejection": true,
+  "date": "Sun Feb 15 2026 13:34:47 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 14972,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 61165568,
+      "heapTotal": 22642688,
+      "heapUsed": 16971696,
+      "external": 2402195,
+      "arrayBuffers": 16863
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 3861.375
+  },
+  "trace": {
+    "0": {
+      "column": 14,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js",
+      "function": "Module.AddDo",
+      "line": 15,
+      "method": "AddDo",
+      "native": false
+    },
+    "1": {
+      "column": 44,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 14972,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:37:20] [31merror[39m: [31munhandledRejection: Cannot read properties of undefined (reading 'status')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'status')[39m
+[31m    at Module.AddDo (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js:15:14)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:44[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: Cannot read properties of undefined (reading 'status')\n    at Module.AddDo (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js:15:14)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js:7:44\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "rejection": true,
+  "date": "Sun Feb 15 2026 13:37:20 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 15772,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 62803968,
+      "heapTotal": 22904832,
+      "heapUsed": 17098920,
+      "external": 2402195,
+      "arrayBuffers": 16863
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 4014.062
+  },
+  "trace": {
+    "0": {
+      "column": 14,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/todo.controller.js",
+      "function": "Module.AddDo",
+      "line": 15,
+      "method": "AddDo",
+      "native": false
+    },
+    "1": {
+      "column": 44,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/todo.routes.js",
+      "function": null,
+      "line": 7,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 15772,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-15 13:40:21] [31merror[39m: [31munhandledRejection: Cannot read properties of undefined (reading 'status')[39m
+[31mTypeError: Cannot read properties of undefined (reading 'status')[39m
+[31m    at Module.registrationUser (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/user.controller.js:24:13)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/user.routes.js:6:47[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "TypeError: Cannot read properties of undefined (reading 'status')\n    at Module.registrationUser (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/user.controller.js:24:13)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/user.routes.js:6:47\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "rejection": true,
+  "date": "Sun Feb 15 2026 13:40:21 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 4280,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 62570496,
+      "heapTotal": 31031296,
+      "heapUsed": 17230296,
+      "external": 2402937,
+      "arrayBuffers": 17605
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 4195.062
+  },
+  "trace": {
+    "0": {
+      "column": 13,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/user.controller.js",
+      "function": "Module.registrationUser",
+      "line": 24,
+      "method": "registrationUser",
+      "native": false
+    },
+    "1": {
+      "column": 47,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/routes/user.routes.js",
+      "function": null,
+      "line": 6,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 4280,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-16 20:26:38] [31merror[39m: [31munhandledRejection: bcrypt is not defined[39m
+[31mReferenceError: bcrypt is not defined[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:26:16[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:32:3[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "ReferenceError: bcrypt is not defined\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:26:16\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:32:3\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "rejection": true,
+  "date": "Mon Feb 16 2026 20:26:38 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 20408,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 64126976,
+      "heapTotal": 32342016,
+      "heapUsed": 15379488,
+      "external": 2452929,
+      "arrayBuffers": 17894
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 35501.062
+  },
+  "trace": {
+    "0": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js",
+      "function": null,
+      "line": 26,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 3,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js",
+      "function": null,
+      "line": 32,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 20408,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-16 20:27:18] [31merror[39m: [31munhandledRejection: bcrypt is not defined[39m
+[31mReferenceError: bcrypt is not defined[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:26:16[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:32:3[39m
+[31m    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)[39m
+[31m    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)[39m
+[31m    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)[39m {
+  "error": {},
+  "stack": "ReferenceError: bcrypt is not defined\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:26:16\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js:32:3\n    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)",
+  "rejection": true,
+  "date": "Mon Feb 16 2026 20:27:18 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 18212,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 62484480,
+      "heapTotal": 31817728,
+      "heapUsed": 16160216,
+      "external": 2451874,
+      "arrayBuffers": 16839
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 35541.39
+  },
+  "trace": {
+    "0": {
+      "column": 16,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js",
+      "function": null,
+      "line": 26,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 3,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/app.js",
+      "function": null,
+      "line": 32,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": 25,
+      "file": "node:internal/modules/esm/module_job",
+      "function": "ModuleJob.run",
+      "line": 271,
+      "method": "run",
+      "native": false
+    },
+    "3": {
+      "column": 26,
+      "file": "node:internal/modules/esm/loader",
+      "function": "async onImport.tracePromise.__proto__",
+      "line": 547,
+      "method": "__proto__",
+      "native": false
+    },
+    "4": {
+      "column": 5,
+      "file": "node:internal/modules/run_main",
+      "function": "async asyncRunEntryPointWithESMLoader",
+      "line": 116,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 18212,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
+[2026-02-16 20:54:34] [31merror[39m: [31munhandledRejection: Illegal arguments: string, undefined[39m
+[31mError: Illegal arguments: string, undefined[39m
+[31m    at _async (file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js:252:11)[39m
+[31m    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js:280:7[39m
+[31m    at new Promise (<anonymous>)[39m
+[31m    at Object.compare (file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js:279:12)[39m
+[31m    at Module.login (file:///C:/Users/Admin/Desktop/ToDo%20List/server/services/userService.js:16:34)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[39m
+[31m    at async loginUser (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/user.controller.js:7:22)[39m {
+  "error": {},
+  "stack": "Error: Illegal arguments: string, undefined\n    at _async (file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js:252:11)\n    at file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js:280:7\n    at new Promise (<anonymous>)\n    at Object.compare (file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js:279:12)\n    at Module.login (file:///C:/Users/Admin/Desktop/ToDo%20List/server/services/userService.js:16:34)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async loginUser (file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/user.controller.js:7:22)",
+  "rejection": true,
+  "date": "Mon Feb 16 2026 20:54:34 GMT+0200 (за східноєвропейським стандартним часом)",
+  "process": {
+    "pid": 6756,
+    "uid": null,
+    "gid": null,
+    "cwd": "C:\\Users\\Admin\\Desktop\\ToDo List\\server",
+    "execPath": "C:\\nvm4w\\nodejs\\node.exe",
+    "version": "v22.13.0",
+    "argv": {
+      "0": "C:\\nvm4w\\nodejs\\node.exe",
+      "1": "C:\\Users\\Admin\\Desktop\\ToDo List\\server\\server.js"
+    },
+    "memoryUsage": {
+      "rss": 56147968,
+      "heapTotal": 17137664,
+      "heapUsed": 14550536,
+      "external": 2484942,
+      "arrayBuffers": 17672
+    }
+  },
+  "os": {
+    "loadavg": {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    "uptime": 37177.484
+  },
+  "trace": {
+    "0": {
+      "column": 11,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js",
+      "function": "_async",
+      "line": 252,
+      "method": null,
+      "native": false
+    },
+    "1": {
+      "column": 7,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js",
+      "function": null,
+      "line": 280,
+      "method": null,
+      "native": false
+    },
+    "2": {
+      "column": null,
+      "file": null,
+      "function": "new Promise",
+      "line": null,
+      "method": null,
+      "native": false
+    },
+    "3": {
+      "column": 12,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/node_modules/bcryptjs/index.js",
+      "function": "Object.compare",
+      "line": 279,
+      "method": "compare",
+      "native": false
+    },
+    "4": {
+      "column": 34,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/services/userService.js",
+      "function": "Module.login",
+      "line": 16,
+      "method": "login",
+      "native": false
+    },
+    "5": {
+      "column": 5,
+      "file": "node:internal/process/task_queues",
+      "function": "process.processTicksAndRejections",
+      "line": 105,
+      "method": "processTicksAndRejections",
+      "native": false
+    },
+    "6": {
+      "column": 22,
+      "file": "file:///C:/Users/Admin/Desktop/ToDo%20List/server/controllers/user.controller.js",
+      "function": "async loginUser",
+      "line": 7,
+      "method": null,
+      "native": false
+    }
+  },
+  "service": "MyApp",
+  "environment": "development",
+  "nodeVersion": "v22.13.0",
+  "pid": 6756,
+  "hostname": "DESKTOP-TP4BGOS",
+  "platform": "win32"
+}
